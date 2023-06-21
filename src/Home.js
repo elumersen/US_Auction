@@ -55,7 +55,7 @@ export default function Home() {
               </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='#' className=' mx-5'>
+              <MDBNavbarLink active aria-current='page' href='./LoginPage' className=' mx-5'>
                 Login
               </MDBNavbarLink>
             {/* </MDBNavbarItem> */}

@@ -4,6 +4,7 @@ import './index.css';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import App from './App';
 import Home from './Home';
+import LoginPage from './LoginPage';
 // import Nav from './Nav';
 
 const container = document.getElementById("root");
@@ -11,6 +12,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
+    {/* <LoginPage/> */}
     < Home/>
     {/* < Nav/> */}
     < App/>

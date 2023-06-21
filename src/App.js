@@ -29,16 +29,12 @@ export default function App() {
         </MDBCard>
       </div>
       <div className="col-md-6 mt-5">
-        <span>
         <MDBTypography tag="h3">
           Printers - AG0232X AG0976B AG0976C AG1000G AG1001G
         </MDBTypography>
-        </span>
-        <span>
-        <MDBBtn className='mx-2' color='secondary'>
-        Secondary
-      </MDBBtn>
-        </span>
+          <MDBBtn className="my-1" mx-5 color="danger">
+            Sold For
+          </MDBBtn>
         <div className="row">
           <div className="col-md-3 col-sm-6">
             <div className="form-group">
@@ -80,7 +76,16 @@ export default function App() {
         </div>
         <div className="row">
           <MDBTypography variant="body1">
-          6 units of laser printer and 1 Sony DVD drive See Image for reference. No viewing is allowed. All items are sold “AS IS”, “WHERE IS” basis. Working status unknown. No refund, no guarantee, no warranty, no exchange. Please make sure to read and understand the Terms and Condition of Sale and How it works before bidding. Payment must be made by Electronic Funds Transfer within three days of auction closing. All lots must be collected within 5 business days after notification, by email, of receipt of your payment. You must wait to have your payment receipt by email before collecting. Customers are responsible for paying all applicable lo
+            6 units of laser printer and 1 Sony DVD drive See Image for
+            reference. No viewing is allowed. All items are sold “AS IS”, “WHERE
+            IS” basis. Working status unknown. No refund, no guarantee, no
+            warranty, no exchange. Please make sure to read and understand the
+            Terms and Condition of Sale and How it works before bidding. Payment
+            must be made by Electronic Funds Transfer within three days of
+            auction closing. All lots must be collected within 5 business days
+            after notification, by email, of receipt of your payment. You must
+            wait to have your payment receipt by email before collecting.
+            Customers are responsible for paying all applicable lo
           </MDBTypography>
         </div>
       </div>
